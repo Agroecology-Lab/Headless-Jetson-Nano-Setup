@@ -132,6 +132,10 @@ cd ~/Headless-Jetson-Nano-Setup
 chmod +x ./tensorflow.sh && ./tensorflow.sh
 ```
 
+# Install Sawppy
+
+See here: https://github.com/mgonzs13/ros2_rover
+
 ## Issues <a name="issue"></a>
 Installing or modifying `OpenCV` will break `Gstreamer Pipeline`.<br/>
 Therefore `Albumation` package should not be installed for Deep Learning.<br/>
