@@ -147,6 +147,10 @@ See here: https://github.com/mgonzs13/ros2_rover
 
 See here: https://github.com/kerry-t-johnson/i2c_pwm
 
+# Install controllers
+
+See here: https://github.com/Ar-Ray-code/ps_ros2_common/
+
 ## Issues <a name="issue"></a>
 Installing or modifying `OpenCV` will break `Gstreamer Pipeline`.<br/>
 Therefore `Albumation` package should not be installed for Deep Learning.<br/>
