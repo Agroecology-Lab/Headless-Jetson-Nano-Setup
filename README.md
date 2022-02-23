@@ -3,7 +3,7 @@
 </p>
 
 <p align="justify">
-Headless Jetson Nano 4GB setup with with Micro-USB cable Without Using Monitor. USB Dongle is required for Wifi Connection. JupyterLab setup included. JupyterLab doesn't need docker. Torch, Torch2trt, ONNX, ONNXRuntime-GPU Torchvision and TensorFlow Installation Included. ROS2 Dasing Installation Included.
+Headless Jetson Nano 4GB setup with with Micro-USB cable Without Using Monitor. USB Dongle is required for Wifi Connection. JupyterLab setup included. JupyterLab doesn't need docker. Torch, Torch2trt, ONNX, ONNXRuntime-GPU Torchvision and TensorFlow Installation Included. ROS2 Foxy Installation Included.
 </p>
   
 ## Colaborators
@@ -26,7 +26,7 @@ Headless Jetson Nano 4GB setup with with Micro-USB cable Without Using Monitor. 
 
 ## Install Jetson Nano Image <a name="install"></a>
 Download [balenaEtcher](https://www.balena.io/etcher/) and install it.</br>
-Download [Jetson Nano Developer Kit SD Card Image](https://developer.nvidia.com/jetson-nano-sd-card-image-45-0), and write it on a microSD card with **balenaEtcher**.</br>
+Download [Jetson Nano Ubuntu 20.04](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image), and write it on a microSD card with **balenaEtcher**.</br>
 
 ## Boot Jetson Nano <a name="boot"></a>
 Insert the microSD card to Jetson Nano.</br>
@@ -67,10 +67,10 @@ Once login completes, the Micro-USB cable can be disconnected.
 
 ## Download Repository <a name="repository"></a>
 ```
-git clone https://github.com/ANI717/Headless-Jetson-Nano-Setup
+git clone https://github.com/Agroecology-Lab/Headless-Jetson-Nano-Setup/
 ```
 
-## One Command Install All <a name="all"></a>
+## Not working yet -One Command Install All <a name="all"></a>
 Installs `Jupyter Lab`, `ROS2 Dashing`, `PyTorch`, `Torchvision`, `Torch2trt`, `ONNX`, `ONNXRuntime-GPU`, `Inputs` and `Adafruit_MotorHat`.<br/>
 Enables I2C Permissions.<br/>
 Sets Jetbot Stats.<br/>
@@ -103,10 +103,10 @@ cd ~/Headless-Jetson-Nano-Setup
 chmod +x ./jetbot_stats.sh && ./jetbot_stats.sh
 ```
 
-## Install ROS2 Dashing <a name="ros2dashing"></a>
+## Install ROS2 Foxy <a name="ros2dashing"></a>
 ```
 cd ~/Headless-Jetson-Nano-Setup
-chmod +x ./dashing.sh && ./dashing.sh
+chmod +x ./foxy.sh && ./foxy.sh
 ```
 [Reference](https://docs.ros.org/en/dashing/Installation/Ubuntu-Install-Debians.html)
 
