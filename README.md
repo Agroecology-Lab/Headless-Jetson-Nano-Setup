@@ -143,6 +143,10 @@ chmod +x ./tensorflow.sh && ./tensorflow.sh
 
 See here: https://github.com/mgonzs13/ros2_rover
 
+# I2C servo
+
+See here: https://github.com/kerry-t-johnson/i2c_pwm
+
 ## Issues <a name="issue"></a>
 Installing or modifying `OpenCV` will break `Gstreamer Pipeline`.<br/>
 Therefore `Albumation` package should not be installed for Deep Learning.<br/>
