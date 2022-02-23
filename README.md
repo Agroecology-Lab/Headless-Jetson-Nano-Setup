@@ -18,7 +18,7 @@ Headless Jetson Nano 4GB setup with with Micro-USB cable Without Using Monitor. 
 * [Enable I2C Permissions](#i2c) <br/>
 * [Install Jupyter Lab](#jupytarlab) <br/>
 * [Setup Jetbot Stats](#stats) <br/>
-* [Install ROS2 Dashing](#ros2dashing) <br/>
+* [Install ROS2 Foxy](#ros2foxy) <br/>
 * [Install Torch](#torch) <br/>
 * [Install Torch2trt and ONNX](#torch2trt) <br/>
 * [Install TensorFlow](#tf) <br/>
@@ -103,7 +103,7 @@ cd ~/Headless-Jetson-Nano-Setup
 chmod +x ./jetbot_stats.sh && ./jetbot_stats.sh
 ```
 
-## Install ROS2 Foxy <a name="ros2dashing"></a>
+## Install ROS2 Foxy <a name="ros2foxy"></a>
 ```
 cd ~/Headless-Jetson-Nano-Setup
 chmod +x ./foxy.sh && ./foxy.sh
