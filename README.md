@@ -65,6 +65,13 @@ hostname -I
 Open Putty and connect using the IP address.<br/>
 Once login completes, the Micro-USB cable can be disconnected.
 
+## Get rid of OpenCV
+
+```
+sudo apt-get --purge remove opencv
+```
+
+
 ## Download Repository <a name="repository"></a>
 ```
 git clone https://github.com/Agroecology-Lab/Headless-Jetson-Nano-Setup/
